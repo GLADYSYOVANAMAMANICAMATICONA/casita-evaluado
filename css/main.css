@@ -1,0 +1,166 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	background: white;
+}
+#fondo{
+
+}
+
+#pasto{
+	
+	background: green;
+	width: 100%;
+	height: 20%;
+	position: absolute;
+	bottom: 0px;
+}
+
+#casa{
+   width: 420px; 
+   height: 250px;
+   background: blue;
+   position: absolute;
+   bottom: 25px;
+   right: 200px;
+}
+
+#techo{
+	border-bottom: 150px solid #333;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    width: 320px;
+    position: absolute;
+    right: 200px;
+    bottom: 250px;
+}
+
+#corazon { 
+	z-index: 100;
+	position: absolute;
+	right: 530px;
+    bottom: 170px;
+ }
+
+#corazon:before, #corazon:after {
+   position: absolute;
+   content: "";
+   left: 20px; top: 0;
+   width: 20px;
+   height: 35px;
+   background: blue;
+   -moz-border-radius: 50px 50px 0 0;
+   border-radius: 50px 50px 0 0;
+   -webkit-transform: rotate(-45deg);
+   -moz-transform: rotate(-45deg);
+   -ms-transform: rotate(-45deg);
+   -o-transform: rotate(-45deg);
+   transform: rotate(-45deg);
+   -webkit-transform-origin: 0 100%;
+   -moz-transform-origin: 0 100%;
+   -ms-transform-origin: 0 100%;
+   -o-transform-origin: 0 100%;
+   transform-origin: 0 100%;
+}
+#corazon:after { 
+left: 0; 
+   -webkit-transform: rotate(45deg); 
+   -moz-transform: rotate(45deg); 
+   -ms-transform: rotate(45deg); 
+   -o-transform: rotate(45deg);
+   transform: rotate(45deg);
+   -webkit-transform-origin: 100% 100%;
+   -moz-transform-origin: 100% 100%;
+   -ms-transform-origin: 100% 100%;
+   -o-transform-origin: 100% 100%;
+   transform-origin :100% 100%;
+}
+
+#puerta {
+   width: 120px; 
+   height: 180px;
+   background: red;
+   position: absolute;
+   right: 450px;
+   bottom: 25px;
+}
+
+#ventana {
+   width: 70px; 
+   height: 70px;
+   background: pink;
+   position: absolute;
+   right: 300px;
+   bottom: 120px;
+}
+
+#chimenea {
+   width: 25px; 
+   height: 60px;
+   background: pink;
+   position: absolute;
+   right: 280px;
+   bottom: 300px;
+}
+
+#humo { 
+   width: 30px;
+   height: 30px;
+   background: blue; 
+   -moz-border-radius: 70px; 
+   -webkit-border-radius: 70px; 
+   border-radius: 70px;
+   position: absolute;
+   right: 260px;
+   bottom: 370px;
+}
+
+#humo1 { 
+   width: 30px;
+   height: 30px;
+   background: blue; 
+   -moz-border-radius: 70px; 
+   -webkit-border-radius: 70px; 
+   border-radius: 70px;
+   position: absolute;
+   right: 225px;
+   bottom: 390px;
+}
+
+#humo2 { 
+   width: 30px;
+   height: 30px;
+   background: blue; 
+   -moz-border-radius: 70px; 
+   -webkit-border-radius: 70px; 
+   border-radius: 70px;
+   position: absolute;
+   right: 210px;
+   bottom: 430px;
+}
+
+#humo2 { 
+   width: 30px;
+   height: 30px;
+   background: blue; 
+   -moz-border-radius: 70px; 
+   -webkit-border-radius: 70px; 
+   border-radius: 70px;
+   position: absolute;
+   right: 210px;
+   bottom: 430px;
+}
+
+#sol { 
+   width: 120px;
+   height: 120px;
+   background: blue; 
+   -moz-border-radius: 70px; 
+   -webkit-border-radius: 70px; 
+   border-radius: 70px;
+   position: absolute; 
+   top: 50px;
+   left: 30px; 
+
+}
